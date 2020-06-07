@@ -40,7 +40,7 @@ Note: For all commands, `queen` can be substituted with `q`
 
 
 ## To run the bot yourself
-Make a file named `config.json` in the root directory of the repo. Head over to the [Discord Developer Portal](https://discordapp.com/developers/applications/me) and get a token for a new bot. Place that token in `config.json` in the following format:
+Make a file named `config.json` in the util folder. Head over to the [Discord Developer Portal](https://discordapp.com/developers/applications/me) and get a token for a new bot. Place that token in `config.json` in the following format:
 
 ```
 {
@@ -51,4 +51,4 @@ Make a file named `config.json` in the root directory of the repo. Head over to 
 Then run the bot by running `node index.js` in a terminal. To run even after closing the terminal window (ie. on an AWS EC2 instance) use the command `forever start index.js`.
 
 ## Contribute
-Make some contributions, it's open source. Just make a pull request, I'll probably accept it.
+Make some contributions, it's open source. Just make a pull request, I'll probably accept it as long as there aren't any bugs. You'll probably only want to touch the switch statement in [util/commands.js](util/commands.js).
